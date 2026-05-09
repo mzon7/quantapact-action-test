@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: mzon7/quantapact/action@main
+      - uses: quantapact/pqcheck/action@main
         with:
           domain: quantapact.com
           threshold: '8'
